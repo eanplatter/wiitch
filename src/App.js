@@ -62,7 +62,6 @@ function App() {
   const inp = removeDupes(
     mapToKey(removeDupes(removeVowels(input)).toLowerCase(), KEY)
   );
-  console.log(inp);
   return (
     <div className="App">
       <header className="App-header">
